@@ -4,7 +4,25 @@
 // Zorg ervoor dat dit ook zou werken als de array wel 100 of 200 namen zou bevatten!
 // ==========================================
 
+
+// INPUT
+// - De "je" als koosnaampje in array (waarde)
+
+// OUTPUT
+// - Array met koosnaampje -je (log)
+
+// STAPPENPLAN
+// - log ongewijzigde array in console
+// - Vraag waarden array op en wijzig deze door "je" toe te voegen in een for loop
+// - Log gewijzigde array in console
+
 const names = ["Henk", "Piet", "Fred", "Joop"];
+console.log(names);
+
+for (let i = 0; i < names.length; i++) {
+    names[i] = names[i] + "je";
+}
+console.log(names);
 
 // Verwachtte uitkomsten:
 // Vóór het script zie je de originele waardes:
@@ -19,7 +37,24 @@ const names = ["Henk", "Piet", "Fred", "Joop"];
 // Zorg ervoor dat dit ook zou werken als de array wel 100 of 200 getallen zou bevatten!
 // ==========================================
 
+// INPUT
+// - Vermenigvuldig originele array met 3 (waarde)
+
+// OUTPUT
+// - Array met waarden 3x zo groot (log)
+
+// STAPPENPLAN
+// - Log originele array numbers in console
+// - Vraag waarden array op en wijzig de waarden door te vermenigvuldigen met 3 in een for loop
+// - Log gewijzigde array numbers in console
+
 const numbers = [2, 4, 5, 29, 38];
+console.log(numbers);
+
+for (let i = 0; i < numbers.length; i++) {
+    numbers[i] = numbers[i] * 3;
+}
+console.log(numbers);
 
 // Verwachtte uitkomsten:
 // Vóór het script zie je de originele waardes:
@@ -35,7 +70,24 @@ const numbers = [2, 4, 5, 29, 38];
 // Zorg ervoor dat dit ook zou werken als de array wel 100 of 200 getallen zou bevatten!
 // ==========================================
 
+// INPUT
+// - volume = l*b*h (waarden)
+
+// OUTPUT
+// - Array met volume van ieder vierkant (log)
+
+// STAPPENPLAN
+// - log originele array squares in console
+// - Vraag waarden array op en wijzig de waarden door deze te vermenigvuldigen met de l*b*h in een for loop
+// - log gewijzigde array squares in console
+
 const squares = [30, 2, 8, 24, 11];
+console.log(squares);
+
+for (let i = 0; i < squares.length; i++) {
+    squares[i] = squares[i] * squares[i] * squares[i];
+}
+console.log(squares);
 
 // Verwachtte uitkomsten:
 // Vóór het script zie je de originele waardes:
